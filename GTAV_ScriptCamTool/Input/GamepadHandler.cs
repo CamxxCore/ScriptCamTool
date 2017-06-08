@@ -111,7 +111,7 @@ namespace GTAV_ScriptCamTool.Input
                 OnRightStickPressed(new ButtonPressedEventArgs(GetControlValue(231)));
 
             if (GetControlValue(229) > 127)
-                OnRightTriggerChanged(new TriggerChangedEventArgs(GetControlValue(227)));
+                OnRightTriggerChanged(new TriggerChangedEventArgs(GetControlValue(229)));
             if (GetControlValue(228) > 127)
                 OnLeftTriggerChanged(new TriggerChangedEventArgs(GetControlValue(228)));
 
@@ -125,7 +125,7 @@ namespace GTAV_ScriptCamTool.Input
                 OnBPressed(new ButtonPressedEventArgs(GetControlValue(225)));
             if (GetControlInput(226))
                 OnLBPressed(new ButtonPressedEventArgs(GetControlValue(226)));
-            if (GetControlInput(226))
+            if (GetControlInput(227))
                 OnRBPressed(new ButtonPressedEventArgs(GetControlValue(227)));
         }
 
